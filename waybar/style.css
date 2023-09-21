@@ -1,0 +1,92 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: CaskaydiaCove Nerd Font, monospace;
+  font-weight: 400;
+  font-size: 14px;
+  min-height: 0;
+}
+
+#window {
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+window#waybar {
+  color: #cdd6f4;
+  background-color: rgba(52,6,6,0.8);
+}
+
+tooltip {
+  border-style: solid;
+}
+
+#custom-updates,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#workspaces,
+#tray,
+#memory,
+#language,
+#cpu,
+#disk,
+#backlight {
+  padding: 0px 4px;
+  color: white;
+}
+
+#tray {
+  margin-bottom: 2px;
+}
+
+#custom-separator {
+  color: grey;
+  margin-top: 1px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#workspaces {
+  border-radius: 20px;
+}
+
+#workspaces button {
+  color: grey;
+  margin: 5px 2px;
+  border-radius: 20px;
+  padding: 0px;
+  padding-right: 4px;
+  padding-left: 0px;
+}
+
+#workspaces button.active {
+  background-color: #ff1f1f;
+  color: yellow;
+}
+
+#workspaces button.focused {
+  background:  #00BFC4;
+  color: white;
+}
+
+#workspaces button.urgent {
+  color: #11111b;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+  background:  #00BFC4;
+  color: white;
+}
+
+.modules-left,
+.modules-right {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
